@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio-master-duynghia/static/css/main.4da8c6ed.css",
+    "main.js": "/portfolio-master-duynghia/static/js/main.5e89f8d4.js",
+    "static/media/CV_Le_Nguyen_Duy_Nghia_Developer.pdf": "/portfolio-master-duynghia/static/media/CV_Le_Nguyen_Duy_Nghia_Developer.5e3269b14c9e800066d3.pdf",
+    "static/media/resume-pic.jpg": "/portfolio-master-duynghia/static/media/resume-pic.98fd565b6a75281c0b54.jpg",
+    "index.html": "/portfolio-master-duynghia/index.html",
+    "main.4da8c6ed.css.map": "/portfolio-master-duynghia/static/css/main.4da8c6ed.css.map",
+    "main.5e89f8d4.js.map": "/portfolio-master-duynghia/static/js/main.5e89f8d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4da8c6ed.css",
+    "static/js/main.5e89f8d4.js"
+  ]
+}
