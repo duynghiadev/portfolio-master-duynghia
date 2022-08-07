@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hello_pikachu_img{
+    width: 20%;
+    height: 20%;
+    min-width: 181px;
+    
+}
+.introduction{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10%;
+    padding-top: 20px;
+}
+.introduction-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: right-to-origin 3s linear;
+
+}
+.introduction-text h1:nth-child(1){
+    
+    font-size: 60px;
+    color: #FF8C00;
+
+}
+.introduction-text h1:nth-child(2) {
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+
+}
+.introduction .name{
+    color: rgb(248, 33, 73)
+}
+.my-objective-wrapper{
+    display: flex;
+    margin: 5%;
+    padding: 2% 5%;
+    border: 2px white solid;
+    border-radius: 25px;
+    justify-content: space-between;
+    
+}
+.my-objective p{
+    color: #16e1ab;
+    font-size: 23px;
+    line-height: 35px;
+
+}
+.my-objective h1{
+    color: #e52121;
+    font-style: italic;
+    font-size: 47px;
+    font-style: italic;
+}
+.myself-pic{
+    width: fit-content;
+}
+.myself-pic img {
+    margin-top:40px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+}
+.my-skills{
+    margin: 0 5%;
+    color: #43da78;
+    padding-bottom: 5%;
+    width: 50%;
+}
+.skills-list{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 50%; */
+    
+}
+.skills-list div {
+    width: 10vw;
+    height: 10vw;
+    min-height: 155px;
+    min-width: 155px;
+    border: 3px solid #FF00FF;
+    border-radius: 30% 70% 70% 30% / 30% 27% 73% 70%;
+    margin: 5px;
+    text-align: center;
+    line-height: 10vw;
+    animation:border-animation 6s linear infinite ;
+    font-weight: 700;
+    font-size: 20px;
+    color: #00FFFF;
+}
+.skills-list div:nth-child(3n+0){
+    border-color: #FF8C00;
+}
+.skills-list div:nth-child(3n+1) {
+    border-color: #F0F8FF;
+}
+.my-skills h1{
+    width: fit-content;
+    color: #e52121;
+    font-size: 47px;
+    font-style: italic;
+    
+}
+.my-skills-wrapper{
+    display: flex;
+}
+.typing-personality{
+    font-size: 40px;
+    line-height: 100px;
+    font-weight: bold;
+    height: 100px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 30px;
+    color: #FFFF00;
+}
+.personality h1{
+    color: #e52121;
+    font-size: 47px;
+    font-style: italic;
+}
+.slider{
+    color:#00FFFF;
+    margin-left: 12px;
+    box-sizing: border-box;
+    animation: slider 6s linear infinite forwards;
+    flex-shrink: 0;
+    
+}
+.personality img{
+    animation: rotate-pokemon 4s linear infinite;
+}
+.introduction-text a {
+    color: #16e1ab;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.introduction-text button{
+    margin-top: 15px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 3px solid #16e1ab;
+    border-radius: 25px;
+    display: block;
+}
+.introduction-text button:hover{
+    border-color: #FF00FF;
+}
+.introduction-text a:hover {
+    color: #FF00FF;
+    
+}
+.highlight{
+    color: #FFFF00;
+    font-style: italic;
+}
+@keyframes slider {
+    0%{
+        margin-top: -200px;
+    }
+    30%{
+        margin-top: -200px;
+    }
+    35%{
+        margin-top: 0px;
+    }
+    65%{
+        margin-top: 0px;
+    }
+    70%{
+        margin-top: 200px;
+    }
+    100%{
+        margin-top: 200px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1100px) {
+    .introduction {
+        flex-direction: column;
+    }
+    .hello_pikachu_img{
+        margin: 0 auto;
+    }
+    .skills-list div {
+        line-height: 18vw;
+    }
+}
+@media screen and (max-width:630px) {
+    
+    .skills-list div {
+
+        line-height: 25vw;
+    }
+
+    .my-objective-wrapper{
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width:900px) {
+    .typing-personality{
+        font-size: 35px;
+    }
+    .my-skills{
+        width: 100%;
+    }
+    .my-skills-wrapper {
+        flex-direction: column;
+    }
+    .typing-personality{
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+}
+
+@keyframes border-animation {
+    0%, 100%{
+    border-radius: 30% 70% 70% 30% / 30% 27% 73% 70%;
+         
+    }
+    33%{
+        border-radius:79% 21% 89% 11% / 42% 52% 48% 58%
+    }
+    66%{
+       border-radius: 79% 21% 45% 55% / 21% 78% 22% 79%;
+    }
+}
+@keyframes rotate-pokemon{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes right-to-origin {
+    from{
+        transform: translateX(125%);
+    }
+    to{
+        transform: translateX(0);
+    }
+
+    
+}

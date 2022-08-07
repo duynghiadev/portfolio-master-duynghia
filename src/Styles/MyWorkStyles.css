@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #51c8d3;
+}
+.project-name{
+    color: #10e91f;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.mywork-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+    flex-wrap: wrap;
+    
+}
+.mywork{
+    padding: 1rem;
+    flex: 0;
+    border: 5px solid rgb(196, 31, 157);
+    margin: 10px 5px;
+    border-radius: 25px;
+
+   
+}
+.mywork img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.mywork a{
+    color: white;
+    margin: 10px;
+    
+}
+.project-detail{
+    width: 350px;
+    margin: 0 auto;
+    font-size: 20px;
+    
+    
+}
+@keyframes drop {
+    from{
+        transform: translateY(-120%);
+    }
+    to{
+        transform: translateY(0);
+    }
+    
+}
+.project-detail button{
+    font-size: 28px;
+    padding: 3px;
+    background-color: transparent; 
+    background-image: linear-gradient(red,red), linear-gradient(90deg, #ff0, #f0F, #f00,#0f0); 
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.project-detail button:hover{
+    opacity: 0.5;
+}
+.project-detail p{
+    font-size: 25px;
+}
+
+.project-detail span{
+    color: white;
+    font-size: 20px;
+}
+.project-detail a{
+    text-decoration: none;
+}
+
+.mywork-heading{
+    color: #e52121;
+    font-size: 47px;
+    font-style: italic;
+    margin: 0 5%;
+}
+
+@media screen and (max-width: 1360px) {
+    .mywork-wrapper{
+        justify-content: flex-start;
+    }
+}

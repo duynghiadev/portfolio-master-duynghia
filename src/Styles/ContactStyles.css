@@ -1,0 +1,47 @@
+.contact-heading {
+  color: #e52121;
+  font-size: 47px;
+  font-style: italic;
+  margin: 0 5%;
+}
+.contact-detail {
+  border: 5px rgb(0, 255, 0) solid;
+  font-size: 20px;
+  padding: 25px;
+  border-radius: 25px;
+  height: fit-content;
+}
+.contact-detail div {
+  margin: 15px 0px;
+  padding-bottom: 15px;
+  border-bottom: 2px rgb(209, 14, 105) solid;
+}
+.contact-detail p,
+.contact-detail a {
+  color: white;
+}
+.contact-detail a:hover {
+  text-decoration: underline;
+}
+.contact-wrapper-detail {
+  margin: 10px 5%;
+  border-radius: 25px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact-wrapper-detail img {
+  display: block;
+  margin-top: 20px;
+}
+.contact-wrapper-detail i {
+  font-size: 25px;
+}
+.contact-detail a {
+  display: block;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}

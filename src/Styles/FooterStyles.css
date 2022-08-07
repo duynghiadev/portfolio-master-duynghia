@@ -1,0 +1,10 @@
+.footer-wrapper{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer-wrapper p{
+    color: wheat;
+}
+.footer-wrapper span{
+    color: rgb(145, 248, 190)
+}

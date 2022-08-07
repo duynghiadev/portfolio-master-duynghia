@@ -1,0 +1,28 @@
+.totop-btn i{
+    font-size: 40px;
+}
+.totop-btn {
+    background-color: transparent;
+    padding: 5px;
+    border: 3px solid #51c8d3;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right:20px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .4s;
+}
+.active{
+    pointer-events:all;
+    opacity: 1;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.totop-btn:hover {
+    background-color: palevioletred;
+}
