@@ -15,4 +15,8 @@ export const ContactData = [
     description: "linkedin",
     data: "https://www.linkedin.com/in/duy-nghia-2ab90a201/",
   },
+  {
+    description: "facebook",
+    data: "https://www.facebook.com/duynghia.22302",
+  },
 ];

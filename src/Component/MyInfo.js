@@ -4,6 +4,7 @@ import resumepdf from "../Resume/Le-Nguyen-Duy-Nghia-CV.pdf";
 import { MyInfoData } from "../data/MyInfoData";
 import MySkills from "./MySKills";
 import MyPersonality from "./MyPersonality";
+
 function MyInfo() {
   return (
     <div className="MyInfo_wrapper">

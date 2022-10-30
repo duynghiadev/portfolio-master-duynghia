@@ -22,6 +22,10 @@ function Contact() {
             <i className="fa-brands fa-linkedin"></i>
             <a href={ContactData[3].data}>{ContactData[3].data} </a>
           </div>
+          <div className="contact-facebook">
+            <i className="fa-brands fa-facebook"></i>
+            <a href={ContactData[4].data}>{ContactData[4].data} </a>
+          </div>
         </div>
         <div>
           <img

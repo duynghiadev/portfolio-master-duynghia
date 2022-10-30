@@ -27,7 +27,15 @@ export const MyInfoData = [
   {
     id: "5",
     description: "My SKills",
-    data: ["Html", "CSS", "JavaScript", "ReactJS", "Bootstrap", "SQL"],
+    data: [
+      "Html",
+      "CSS",
+      "JavaScript",
+      "SCSS",
+      "ReactJS",
+      "Bootstrap",
+      "MySQL",
+    ],
   },
   {
     id: "6",

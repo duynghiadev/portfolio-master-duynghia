@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import "../Styles/ToTopStyles.css";
+
 function ToTop() {
   const scroll = () => {
     const toTop = document.getElementById("test");

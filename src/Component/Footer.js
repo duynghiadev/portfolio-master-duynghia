@@ -3,7 +3,8 @@ function Footer() {
   return (
     <div className="footer-wrapper">
       <p>
-        Coded by <span>Duy Nghia</span>
+        Coded by
+        <span>&nbsp; Duy Nghia</span>
       </p>
     </div>
   );

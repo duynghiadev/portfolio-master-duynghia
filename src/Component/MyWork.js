@@ -3,7 +3,6 @@ import "../Styles/MyWorkStyles.css";
 import { useEffect } from "react";
 
 function MyWork() {
-
   return (
     <>
       <h1 className="mywork-heading">My Work</h1>
