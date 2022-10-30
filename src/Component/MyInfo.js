@@ -1,6 +1,6 @@
 import "../Styles/MyInfoStyles.css";
 import resumepic from "../pics/resume-pic.jpg";
-import resumepdf from "../Resume/CV_Le_Nguyen_Duy_Nghia_Developer.pdf";
+import resumepdf from "../Resume/Le-Nguyen-Duy-Nghia-CV.pdf";
 import { MyInfoData } from "../data/MyInfoData";
 import MySkills from "./MySKills";
 import MyPersonality from "./MyPersonality";
